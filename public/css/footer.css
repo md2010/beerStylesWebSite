@@ -1,0 +1,23 @@
+footer {
+    border: 10px;
+    background-color: #333; 
+    height: 90px; 
+}
+
+#prev {
+    padding: 7px;
+}
+
+#maps {
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+#text {
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    align-self: center;
+}

@@ -1,0 +1,26 @@
+aside {
+    margin-top: 15px;
+    padding: 0;
+    width: 200px;
+    background-color:whitesmoke;
+    position: fixed;  
+    border: 5px solid  #333;
+  }
+  
+  /* Sidebar links */
+aside a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+  }
+  
+  aside a:hover {
+    background-color: cadetblue;
+    color: white;
+  }
+
+  aside a.active {
+    background-color:  cadetblue;
+  }

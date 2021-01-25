@@ -1,0 +1,46 @@
+#intro {
+    font-size: 20px;
+    width: 900px;
+    margin-left: 400px;
+    margin-bottom: 30px;
+}
+
+.srm {
+    display: grid;
+    grid-template-columns: 2fr 2fr 0.7fr;
+    padding-top: 20px;
+}
+
+#srmText, #ibuText {
+    border: 2px solid #333;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#srmDiv, #ibuDiv {
+    margin-top: 100px;
+}
+
+#srmImg {
+    margin-left: 50px;
+}
+
+.ibu {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-top: 30px;
+}
+
+#ibuDiv {
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+#ibuImg {
+    margin-right: 50px;
+    padding-bottom: 30px;
+}
+
+body {
+    background-color: #efebe9;
+  }

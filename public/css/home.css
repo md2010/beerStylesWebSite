@@ -1,0 +1,97 @@
+.rowimg {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 150px;
+  }
+  
+  .colimg {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .intro  {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  #note {
+    border: 2px solid brown;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 80px;
+    padding: 5px;
+    width: 320px;
+}
+
+  #intro  {
+    margin-left: 20px;
+    padding-top: 50px;
+    font-size: 20px;
+    width: 900px;
+    height: 120px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    font-weight: normal;
+  }
+
+  #difference {
+    margin-left: 500px;
+    padding-top: 10px;
+    font-size: 20px;
+    width: 900px;
+    height: 150px;
+    margin-right: 0px;
+    margin-bottom: 100px;
+  }
+
+  #vs {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 780px;
+  }
+
+  #vsimg {
+    margin-left: 550px;
+  }
+
+
+  .main {
+      margin-bottom: 100px;
+  }
+
+  .rowvs {
+      display: grid;
+      grid-template-columns: 1fr 3fr
+  }
+
+  #vstext {
+      font-size: 20px; 
+      width: 900px;
+      margin-left: 30px;
+      font-weight: normal;
+      margin-top: 30px;
+  }
+
+  body {
+    background-color: #efebe9;
+  }
+
+  #hbenefits, .benefitList{
+    margin-left: 500px;
+    padding-top: 10px;
+    width: 900px;
+  }
+  
+  .benefitList li {
+      font-size: 25px;
+      color: brown;
+  }
+
+  .benefitList p {
+      font-size: 20px;
+      color: black;
+  }
+
+
+

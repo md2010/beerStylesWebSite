@@ -1,0 +1,47 @@
+.header {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  background-color:cadetblue;
+}
+
+#title {
+  text-align: justify;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+
+navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  navbar li {
+    float: left;
+    border-right: 1px solid #bbb;
+    padding-right: 0px;
+  }
+  
+  navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  navbar li a:hover {
+    background-color:  cadetblue;
+  }
+
+navbar li a.active {
+  background-color:  cadetblue;
+}
+
+
+
+
+  
